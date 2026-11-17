@@ -84,3 +84,7 @@ $scheduler = new Scheduler(new SystemClock(new DateTimeZone('UTC')));
 // Tests
 $scheduler = new Scheduler(new FrozenClock(new DateTimeImmutable('2025-06-01 00:00:00')));
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).
